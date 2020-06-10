@@ -2,15 +2,13 @@
 Codebuch Stand 2020-06-10  
 erstellt von Swaran Sandhu (sandhu@hdm-stuttgart.de)
 
-
 ## Ursprung und Datenerhebung
-Ich habe den Datensatz unter den Studierenden des dritten Semesters im Kurs Netzwerkanalyse erhoben. 
-Die Daten sind nach der Erhebung nach einem Zufallsprinzip anonymisiert worden.
+Ich habe den Datensatz unter den Studierenden des dritten Semesters im Kurs Netzwerkanalyse erhoben. Die Daten sind nach der Erhebung nach einem Zufallsprinzip anonymisiert worden.
+
+### Soziodemographische Daten
 
 **id**  
 In diesem Fall sind alle personenbezogenen Daten anonymisiert von 1 bis 38.
-
-# 1 Soziodemographische Daten
 
 **sex**    
 Bitte geben Sie ihr Geschlecht an:  
@@ -39,7 +37,7 @@ Welche Haarfarbe?
 3 = blond,    
 4 = rot.
 
-# 2 Studium
+### Studium
 
 **crpr***    
 Welche Studienrichtung haben Sie vertieft?  
@@ -58,7 +56,7 @@ Tatoo vorhanden?
 1 = nein  
 2 = ja  
   
-# IT-Nutzung
+### IT-Nutzung
 
 **phone**  
 Welche Art von Smartphone verwenden Sie?  
@@ -66,7 +64,7 @@ Welche Art von Smartphone verwenden Sie?
 2 = android,  
 3 = anderes.  
 
-## Messenger-Nutzung
+### Messenger-Nutzung
 
 **mess1**
 Welchen Messenger verwenden Sie am häufigsten?  
@@ -120,7 +118,7 @@ Welchen Messenger verwenden Sie am häufigsten?
 8 = telegram,  
 9 = threema. 
 
-## Smartphone-Nutzung
+### Smartphone-Nutzung
 
 **usage1**  
 Einen ganzen Tag ohne mein Smartphone zu verbringen fällt mir nicht schwer.  
@@ -149,7 +147,7 @@ Wenn ich einen Tag nicht online war / mein Smartphone nicht benutzen konnte, hab
 4 = trifft zu,  
 5 = trifft voll zu.
 
-## Bezahlbereitschaft
+### Bezahlbereitschaft
 
 **pay1**
 Ich bezahle für folgende Dienste im Netz: 
