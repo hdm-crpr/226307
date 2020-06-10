@@ -8,7 +8,7 @@ Ich habe den Datensatz unter den Studierenden des dritten Semesters im Kurs Netz
 Die Daten sind nach der Erhebung nach einem Zufallsprinzip anonymisiert worden.
 
 **id**  
-Identische ID wie aus der edgelist zur Identifikation der Knoten. In diesem Fall sind alle personenbezogenen Daten anonymisiert von 1 bis 38.
+In diesem Fall sind alle personenbezogenen Daten anonymisiert von 1 bis 38.
 
 # 1 Soziodemographische Daten
 
@@ -61,14 +61,16 @@ Tatoo vorhanden?
 # IT-Nutzung
 
 **phone**  
-Welche Art von Smartphone verwenden Sie?
+Welche Art von Smartphone verwenden Sie?  
 1 = ios,  
 2 = android,  
 3 = anderes.  
 
+## Messenger-Nutzung
+
 **mess1**
-Welchen Messenger verwenden Sie am häufigsten?
-(maximal vier Nennungen).
+Welchen Messenger verwenden Sie am häufigsten?  
+(maximal vier Nennungen).  
 1 = whatsapp,  
 2 = instagram,    
 3 = discord,  
@@ -80,8 +82,8 @@ Welchen Messenger verwenden Sie am häufigsten?
 9 = threema.  
 
 **mess2**
-Welchen Messenger verwenden Sie am häufigsten?
-(maximal vier Nennungen).
+Welchen Messenger verwenden Sie am häufigsten?  
+(maximal vier Nennungen).  
 1 = whatsapp,  
 2 = instagram,    
 3 = discord,  
@@ -106,8 +108,8 @@ Welchen Messenger verwenden Sie am häufigsten?
 9 = threema. 
 
 **mess4**
-Welchen Messenger verwenden Sie am häufigsten?
-(maximal vier Nennungen).
+Welchen Messenger verwenden Sie am häufigsten?  
+(maximal vier Nennungen).  
 1 = whatsapp,  
 2 = instagram,    
 3 = discord,  
@@ -118,29 +120,36 @@ Welchen Messenger verwenden Sie am häufigsten?
 8 = telegram,  
 9 = threema. 
 
-*usage1*
-Einen ganzen Tag ohne mein Smartphone zu verbringen fällt mir nicht schwer.
+## Smartphone-Nutzung
+
+**usage1**  
+Einen ganzen Tag ohne mein Smartphone zu verbringen fällt mir nicht schwer.  
+(Skala 1 bis 5)  
 1 = trifft überhaupt nicht zu,  
 2 = trifft nicht zu,  
 3 = mal so, mal so,    
 4 = trifft zu,  
 5 = trifft voll zu.  
 
-*usage2*
+**usage2**  
 Ich habe häufig das Gefühl, dass ich auf mein Smartphone schaue, obwohl ich das gar nicht möchte.  
+(Skala 1 bis 5)  
 1 = trifft überhaupt nicht zu,  
 2 = trifft nicht zu,  
 3 = mal so, mal so,    
 4 = trifft zu,  
 5 = trifft voll zu.
 
-*usage3*
+**usage3**  
 Wenn ich einen Tag nicht online war / mein Smartphone nicht benutzen konnte, habe ich das Gefühl, dass ich etwas Wichtiges verpasse.   
+(Skala 1 bis 5)  
 1 = trifft überhaupt nicht zu,  
 2 = trifft nicht zu,  
 3 = mal so, mal so,    
 4 = trifft zu,  
 5 = trifft voll zu.
+
+## Bezahlbereitschaft
 
 **pay1**
 Ich bezahle für folgende Dienste im Netz: 
