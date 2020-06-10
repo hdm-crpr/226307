@@ -149,7 +149,7 @@ Wenn ich einen Tag nicht online war / mein Smartphone nicht benutzen konnte, hab
 
 ### Bezahlbereitschaft
 
-**pay1**
+**pay1**  
 Ich bezahle für folgende Dienste im Netz: 
 (fünf Antworten möglich) 
 1 = Filme schauen,  
@@ -158,7 +158,7 @@ Ich bezahle für folgende Dienste im Netz:
 4 = Spiele spielen,  
 5 = eigener Server.  
 
-**pay1**
+**pay2**  
 Ich bezahle für folgende Dienste im Netz:  
 1 = Filme schauen,  
 2 = Musik hören,  
@@ -166,7 +166,7 @@ Ich bezahle für folgende Dienste im Netz:
 4 = Spiele spielen,  
 5 = eigener Server. 
 
-**pay2**
+**pay3**   ´
 Ich bezahle für folgende Dienste im Netz: 
 (fünf Antworten möglich) 
 1 = Filme schauen,  
@@ -175,7 +175,7 @@ Ich bezahle für folgende Dienste im Netz:
 4 = Spiele spielen,  
 5 = eigener Server. 
 
-**pay3**
+**pay4**  
 Ich bezahle für folgende Dienste im Netz: 
 (fünf Antworten möglich) 
 1 = Filme schauen,  
@@ -184,7 +184,7 @@ Ich bezahle für folgende Dienste im Netz:
 4 = Spiele spielen,  
 5 = eigener Server. 
 
-**pay4**
+**pay5**  
 Ich bezahle für folgende Dienste im Netz: 
 (fünf Antworten möglich)  
 1 = Filme schauen,  
@@ -193,13 +193,5 @@ Ich bezahle für folgende Dienste im Netz:
 4 = Spiele spielen,  
 5 = eigener Server. 
 
-**pay5**
-Ich bezahle für folgende Dienste im Netz: 
-(fünf Antworten möglich)  
-1 = Filme schauen,  
-2 = Musik hören,  
-3 = Nachrichten lesen,  
-4 = Spiele spielen,  
-5 = eigener Server. 
 
 
