@@ -120,7 +120,7 @@ Welchen Messenger verwenden Sie am häufigsten?
 
 ### Smartphone-Nutzung
 
-**usage1**  
+**use1**  
 Einen ganzen Tag ohne mein Smartphone zu verbringen fällt mir nicht schwer.  
 (Skala 1 bis 5)  
 1 = trifft überhaupt nicht zu,  
@@ -129,7 +129,7 @@ Einen ganzen Tag ohne mein Smartphone zu verbringen fällt mir nicht schwer.
 4 = trifft zu,  
 5 = trifft voll zu.  
 
-**usage2**  
+**use2**  
 Ich habe häufig das Gefühl, dass ich auf mein Smartphone schaue, obwohl ich das gar nicht möchte.  
 (Skala 1 bis 5)  
 1 = trifft überhaupt nicht zu,  
@@ -138,7 +138,7 @@ Ich habe häufig das Gefühl, dass ich auf mein Smartphone schaue, obwohl ich da
 4 = trifft zu,  
 5 = trifft voll zu.
 
-**usage3**  
+**use3**  
 Wenn ich einen Tag nicht online war / mein Smartphone nicht benutzen konnte, habe ich das Gefühl, dass ich etwas Wichtiges verpasse.   
 (Skala 1 bis 5)  
 1 = trifft überhaupt nicht zu,  
