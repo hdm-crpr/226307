@@ -1,4 +1,4 @@
-# Datensatz Semesterverbund CRPR2 #
+# Datensatz crpr
 Codebuch Stand 2020-06-10  
 erstellt von Swaran Sandhu (sandhu@hdm-stuttgart.de)
 
@@ -193,5 +193,4 @@ Ich bezahle für folgende Dienste im Netz:
 4 = Spiele spielen,  
 5 = eigener Server. 
 
-
-
+###
