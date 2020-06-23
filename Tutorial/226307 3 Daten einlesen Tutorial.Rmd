@@ -1,0 +1,143 @@
+---
+title: "226307 Datenkompetenz 3: Daten einlesen"
+author: "Swaran Sandhu | sandhu@hdm-stuttgart.de"
+output: learnr::tutorial
+runtime: shiny_prerendered
+
+---
+
+```{r setup, include=FALSE}
+
+# Folgende Bibliotheken sind notwendig
+library(learnr)
+library(knitr)
+library(tidyverse)
+knitr::opts_chunk$set(warning = FALSE, echo = TRUE)
+# Folgende Bibliotheken sollten installiert sein, wenn nicht, dann installieren!
+# install.packages("tidyverse")
+```
+
+## Lernziele
+In diesem __Selbstlern-Tutorial 3 __ lernen Sie
+- Grundfunktionen in R,  
+- wie man Daten aus verschiedenen Quellen einliest,  
+- wie eine Datenstruktur im dataframe aussieht,  
+- was ein tibble im tidyverse ist.
+
+Wichtig: Chunks zeilenweise ausführen als Tastenbefehl (spart Zeit und Nerven)
+Windows: STRG + RETURN | Mac: CMD + RETURN 
+
+
+## Datensatz Lernagentur erstellen
+
+__Aufgabe__: Wir wollen mehr über ihre Lernagentur wissen! Erstellen Sie bitte einen einfachen Datensatz mit Vektoren.
+
+```{r Lernagentur01, echo=TRUE, message=TRUE, exercise=TRUE, paged.print=TRUE}
+
+# 1. Vornamen der Mitglieder
+
+# 2. Alter der Mitglieder
+
+# 3. Geschlecht der Mitglieder
+
+# 4. Größe in cm
+
+```
+
+<div id="Lernagentur01-hint">
+**Hinweis:** Denken Sie daran, dass Vektoren immer einen Namen brauchen und dann über die Funktion c() erstellt werden. Achten Sie auch darauf, dass Zahlen und Texte unterschiedlich formatiert werden! 
+</div>
+
+__Aufgabe__: Berechnen Sie den Mittelwert des Alters ihrer Gruppe!
+
+```{r Lernagentur02, echo=TRUE, message=TRUE, exercise=TRUE, paged.print=TRUE}
+
+# Mittelwert berechnen
+
+
+```
+
+<div id="Lernagentur02-hint">
+**Hinweis:** Der Befehl für den Mittelwert ist "mean()". Sie müssen als Variable den Vektor verwenden, den sie vorher angelegt haben, z.B. "alter".
+</div>
+
+### Datenausprägungen
+
+__Aufgabe__: Datenausprägungen
+
+```{r Lernagentur03, echo=TRUE, message=TRUE, exercise=TRUE, paged.print=TRUE}
+
+# Was ist das Mindestalter?
+
+# Was ist die Höchstgröße?
+
+```
+
+<div id="Lernagentur03-hint">
+**Hinweis:** Denken Sie hier an die zwei einfachen Befehle max() und min().
+</div>
+
+
+__Aufgabe__: Datenausprägungen in Vektoren
+Prüfen Sie kurz nach den Höchstwerten im Datensatz
+
+```{r Lernagentur04, echo=TRUE, message=TRUE, exercise=TRUE, paged.print=TRUE}
+
+# Was ist das Mindestalter?
+
+# Was ist die Höchstgröße?
+
+```
+
+<div id="Lernagentur04-hint">
+**Hinweis:** Denken Sie hier an die zwei einfachen Befehle max() und min().
+</div>
+
+__Aufgabe__: Data.frame erstellen
+Führen Sie nun die einzelnen Vektoren in einen Datensatz zusammen und geben diesem den Namen ihrer Lernagentur. Wandeln Sie den Datensatz als tibble um
+
+```{r Lernagentur05, echo=TRUE, message=TRUE, exercise=TRUE, paged.print=TRUE}
+
+
+
+```
+
+<div id="Lernagentur05-hint">
+**Hinweis:** Weisen Sie eine sinnvolle Variable zu und verbinden Sie die einzelnen Vektoren, die sie vorher erstellt haben mit dem Befehl data.frame.
+</div>
+
+### Datensätze speichern
+
+__Aufgabe__: Datensatz speichern
+Speichern Sie ihren Datensatz als .rds und .csv Datei.
+
+```{r Lernagentur06, echo=TRUE, message=TRUE, exercise=TRUE, paged.print=TRUE}
+
+
+
+```
+
+<div id="Lernagentur06-hint">
+**Hinweis:** write.csv2() und saveRDS() sind ihre Freunde
+</div>
+
+
+## Datensatz einlesen
+Wir verwenden oft andere Datensätze als Quellen. Zeigen Sie, dass Sie einen Datensatz einlesen können!
+
+__Aufgabe__: Datensatz einlesen
+Lesen Sie den [James Bond Datensatz](https://felixluginbuhl.com/blog/2017/08/24/bond) ein und verschaffen sich eine ersten Überblick über den Datensatz.
+
+
+```{r Lernagentur07, echo=TRUE, message=TRUE, exercise=TRUE, paged.print=TRUE}
+
+# ´´
+# https://raw.githubusercontent.com/sivabalanb/Data-Analysis-with-Pandas-and-Python/master/jamesbond.csv
+
+```
+
+<div id="Lernagentur07-hint">
+**Hinweis:** Verwenden Sie die readr() Funktion oder den Menüpunkt: Import-Data. Vergessen Sie nicht, dem Datensatz eine sinnvolle Variable zu geben. 
+</div>
+
+
